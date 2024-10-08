@@ -6,7 +6,7 @@
       "welcomeMessage": "Human Resources",
       "description": "Human Resources",
       "moduleImage": "/images/homeCardImages/HumanResource.jpg",
-      "pageLink": "/hr/HRHome",
+      "pageLink": "/about",
       "orderById": 1
     },
     {
@@ -16,7 +16,7 @@
       "welcomeMessage": "Payroll",
       "description": "Payroll",
       "moduleImage": "/images/homeCardImages/Payroll.jpg",
-      "pageLink": "/payroll/Payroll",
+      "pageLink": "/about",
       "orderById": 2
     },
     {
@@ -26,7 +26,7 @@
       "welcomeMessage": "Purchase",
       "description": "Purchase",
       "moduleImage": "/images/homeCardImages/Purchasing.jpg",
-      "pageLink": "/Purchase",
+      "pageLink": "/about",
       "orderById": 3
     },
     {
@@ -36,7 +36,7 @@
       "welcomeMessage": "Supply",
       "description": "Supply",
       "moduleImage": "/images/homeCardImages/Supplies.jpg",
-      "pageLink": "/supply/SupplyHome",
+      "pageLink": "/about",
       "orderById": 4
     },
     {
@@ -46,7 +46,7 @@
       "welcomeMessage": "Inventory",
       "description": "Inventory",
       "moduleImage": "/images/homeCardImages/inventory.jpg",
-      "pageLink": "/IMS/IMSHome",
+      "pageLink": "/about",
       "orderById": 5
     },
     {
@@ -56,7 +56,7 @@
       "welcomeMessage": "Customer Information",
       "description": "Customer Information",
       "moduleImage": "/images/homeCardImages/customer.jpg",
-      "pageLink": null,
+      "pageLink": "/about",
       "orderById": 6
     },
     {
@@ -66,7 +66,7 @@
       "welcomeMessage": "Grievance",
       "description": "Grievance",
       "moduleImage": "/images/homeCardImages/grievance.jpeg",
-      "pageLink": null,
+      "pageLink": "/about",
       "orderById": 7
     },
     {
@@ -76,7 +76,7 @@
       "welcomeMessage": "Billing and Recovery",
       "description": "Billing and Recovery",
       "moduleImage": "/images/homeCardImages/billing2.jpg",
-      "pageLink": null,
+      "pageLink": "/about",
       "orderById": 8
     },
     {
@@ -86,7 +86,7 @@
       "welcomeMessage": "Asset",
       "description": "Asset",
       "moduleImage": "/images/homeCardImages/assets.jpg",
-      "pageLink": null,
+      "pageLink": "/about",
       "orderById": 9
     },
     {
@@ -96,7 +96,7 @@
       "welcomeMessage": "Finance",
       "description": "Finance",
       "moduleImage": "/images/homeCardImages/finance.jpeg",
-      "pageLink": "/Finance",
+      "pageLink": "/about",
       "orderById": 10
     },
     {
@@ -106,7 +106,7 @@
       "welcomeMessage": "Water Quality",
       "description": "Water Quality",
       "moduleImage": "/images/homeCardImages/WaterQuality.jpg",
-      "pageLink": "/wq",
+      "pageLink": "/about",
       "orderById": 11
     },
     {
@@ -116,7 +116,7 @@
       "welcomeMessage": "Water Production",
       "description": "Water Production",
       "moduleImage": "/images/homeCardImages/water-production.jpg",
-      "pageLink": "/wp/WPHome",
+      "pageLink": "/about",
       "orderById": 12
     },
     {
@@ -126,7 +126,7 @@
       "welcomeMessage": "Project Progress and Monitoring",
       "description": "Project Progress and Monitoring",
       "moduleImage": "/images/homeCardImages/project-monitoring.png",
-      "pageLink": null,
+      "pageLink": "/about",
       "orderById": 13
     },
     {
@@ -136,7 +136,7 @@
       "welcomeMessage": "Auditing",
       "description": "Auditing",
       "moduleImage": "/images/homeCardImages/auditing.jpg",
-      "pageLink": null,
+      "pageLink": "/about",
       "orderById": 14
     },
     {
@@ -146,7 +146,7 @@
       "welcomeMessage": "Sewage Management",
       "description": "Sewage Management",
       "moduleImage": "/images/homeCardImages/Sewage.jpg",
-      "pageLink": null,
+      "pageLink": "/about",
       "orderById": 15
     },
     {
@@ -156,7 +156,7 @@
       "welcomeMessage": "ERP Dashboard",
       "description": "ERP Dashboard",
       "moduleImage": "/images/homeCardImages/ERPDashboard.jpg",
-      "pageLink": "/dashboard/dashboard",
+      "pageLink": "/about",
       "orderById": 16
     },
     {
@@ -166,7 +166,7 @@
       "welcomeMessage": "ERP Traceability",
       "description": "ERP Traceability",
       "moduleImage": "/images/homeCardImages/traceability.png",
-      "pageLink": "/administration/newUserRegister",
+      "pageLink": "/about",
       "orderById": 17
     },
     {
@@ -176,7 +176,7 @@
       "welcomeMessage": "Data Warehouse",
       "description": "Data Warehouse",
       "moduleImage": "/images/homeCardImages/DataWarehouse.jpg",
-      "pageLink": "/dw",
+      "pageLink":"/about",
       "orderById": 18
     },
     {
@@ -186,7 +186,7 @@
       "welcomeMessage": "Administration",
       "description": "Administration",
       "moduleImage": "/images/homeCardImages/Administration.jpg",
-      "pageLink": "/Admin/AdministrationHome",
+      "pageLink": "/about",
       "orderById": 19
     }
   ]

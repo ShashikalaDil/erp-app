@@ -1,14 +1,19 @@
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import Cookies from "js-cookie";
 //import images from "@/public/images/homeCardImages";
 
 const Card = ({ title, description, image, link, moduleId, moduleName }) => {
   //const imagePath = images[image];
+  const router = useRouter();
 
   const handleClick = async () => {
     console.log("Card clicked!");
     Cookies.set("moduleId", moduleId);
     Cookies.set("moduleName", moduleName);
+
+    const taskIds = [51, 52, 53, 54, 55];
+    Cookies.set("assignedTaskIds", JSON.stringify(taskIds));
+    router.push(link);
   };
 
   return (

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import LoginLayout from "@/components/LoginLayout";
+import LoginLayout from "@/components/MainLayout";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 
@@ -27,7 +27,9 @@ export default function Login() {
 
   const handleForgotPasswordClick = () => {};
 
-  const handleAdminLoginClick = () => {router.push("/home");};
+  const handleAdminLoginClick = () => {
+    router.push("/home");
+  };
 
   return (
     <div className="flex flex-col min-h-screen md:flex-row">
