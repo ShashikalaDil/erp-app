@@ -22,7 +22,6 @@ const Sidebar = ({ isOpen }) => {
   const moduleId = parseInt(Cookies.get("moduleId"), 10);
   const moduleName = Cookies.get("moduleName");
 
-  // Filter report data based on the current module
   const filteredReportData = reportData.filter(
     (process) => process.moduleId === moduleId
   );
@@ -41,10 +40,8 @@ const Sidebar = ({ isOpen }) => {
       const taskIds = JSON.parse(taskIdsCookie);
       console.log("Parsed Task IDs:", taskIds);
 
-      // Log the full task data to check its structure
       console.log("Task Data:", taskData);
 
-      // Filter tasks by moduleId and taskIds
       const relevantTasks = taskData
         .filter((task) => {
           const isMatch =
